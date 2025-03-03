@@ -1,88 +1,90 @@
+<!DOCTYPE html>
 <html>
-
 <head>
+    <title>(주)와이와이미디어테크(NEVION)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .nav {
+            height: 60px; background-color: black; color: white; display: flex;
+            align-items: center; padding: 0 20px;
+        }
 
-<title>(주)와이와이미디어테크(NEVION)</title>
+        .nav-company {
+            color: white; font-size: 25px; font-family: 'Lemonada', cursive;
+        }
+        
+        .nav-menu {
+            font-size: 20px; margin-left: auto; font-family: 'Lemonada', cursive;
+        }
 
-<style>
+        .nav-menu a {
+            color: white; text-decoration: none; margin: 0 10px;
+        }
+        
+        .logo, .image, .ment {
+            text-align: center; padding: 20px;
+        }
+        
+        .image img {
+            width: 100%; max-width: 1000px; height: auto;
+        }
+        
+        .footer {
+            height: 40px; border-top: 1px solid black; display: flex; justify-content: center; align-items: center;
+        }
 
- 
- .nav {
-   height:60px; background-color: black; color: white; display: flex;
- }
+        /* 반응형 디자인 (모바일 대응) */
+        @media screen and (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                height: auto;
+                text-align: center;
+                padding: 10px 0;
+            }
 
- .nav-company {
-   color: white; font-size: 25px; padding-top: 15px; margin-left: 20px; font-family: 'Lemonada', cursive;
- }
- 
- .nav-menu {
-   font-size: 20px; padding-top: 20px; margin-left: auto; margin-right: 20px; font-family: 'Lemonada', cursive;
+            .nav-menu {
+                font-size: 16px;
+                margin: 10px 0 0 0;
+            }
 
- }
- 
- .logo {
-   text-align: center;
- }
- 
- .image {
- 
-   text-align: center;
- }
- 
- .ment {
-   text-align: center; font-size: 1.1em;
- }
- 
- .footer {
-   height: 30px; border-top: 1px solid black;
- }
- 
- .footer-sub {
- text-align: center; padding-top: 5px; font-family: 'Lemonada', cursive;
- }
- 
-</style>
+            .image img {
+                width: 100%; height: auto;
+            }
 
+            .ment {
+                font-size: 1em;
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
-
-
-
 <body>
-
- <div class="nav">
- 
-   <div class="nav-company">
-   <b>(주)와이와이미디어테크(NEVION)</b>
-   
-   </div>
-   
-   <div class="nav-menu">
-   <a href="https://nevion.com/about/" target="_blank">ABOUT</a>  /  <a href="https://nevion.com/products/" target="_blank">PRODUCT</a>  /  <a href="https://map.naver.com/v5/search/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%94%94%EC%A7%80%ED%84%B8%EB%B9%8C%EB%9E%80%ED%8A%B82%EC%B0%A8/place/18433034?c=14126309.2824549,4506794.9658402,17,0,0,0,dh" target="_blank">LOCATION</a>
-   </div>
+    <div class="nav">
+        <div class="nav-company">
+            <b>(주)와이와이미디어테크(NEVION)</b>
+        </div>
+        <div class="nav-menu">
+            <a href="https://nevion.com/about/" target="_blank">ABOUT</a> /
+            <a href="https://nevion.com/products/" target="_blank">PRODUCT</a> /
+            <a href="https://map.naver.com/v5/search/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%94%94%EC%A7%80%ED%84%B8%EB%B9%8C%EB%9E%80%ED%8A%B82%EC%B0%A8/place/18433034?c=14126309.2824549,4506794.9658402,17,0,0,0,dh" target="_blank">LOCATION</a>
+        </div>
+    </div>
     
- </div>
-
- <div class="logo">
-  <p>
-  <img width=300 src="https://github.com/sunho7979/web/blob/master/logo.jpg?raw=true">
-  
- </div>
- 
- <div class="image">
-  <img width=1000 height=500 src="https://github.com/sunho7979/web/blob/master/sky.jpg.jpg?raw=true">
- </div>
- 
- <div class="ment">
- <p>
- Whatever your IP media transport, processing, monitoring and management need, make sure you talk to the pioneers, the guides, the creators and the experts – from Nevion!
- </div>
- 
- <div class="footer">
-   <div class="footer-sub">
- (주)와이와이미디어테크( 441-86-00812 ) / 서울시 구로구 디지털로30길 31, 코오롱디지털타워빌란트2차 1014호 / 최선호 차장 010_3799_4334(sale@yymtech.com)
-   </div>
- </div>
- 
+    <div class="logo">
+        <img width="300" src="https://github.com/sunho7979/web/blob/master/logo.jpg?raw=true">
+    </div>
+    
+    <div class="image">
+        <img src="https://github.com/sunho7979/web/blob/master/sky.jpg.jpg?raw=true">
+    </div>
+    
+    <div class="ment">
+        <p>Whatever your IP media transport, processing, monitoring and management need, make sure you talk to the pioneers, the guides, the creators and the experts – from Nevion!</p>
+    </div>
+    
+    <div class="footer">
+        (주)와이와이미디어테크( 441-86-00812 ) / 서울시 구로구 디지털로30길 31, 코오롱디지털타워빌란트2차 1014호 / 최선호 차장 010_3799_4334(sale@yymtech.com)
+    </div>
 </body>
-
 </html>
