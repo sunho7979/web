@@ -1,122 +1,189 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>(주)와이와이미디어테크</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>(주)와이와이미디어테크(NEVION)</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; }
-
-        /* NAV */
+        
         .nav {
-            height: 60px;
-            background-color: black;
-            color: white;
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
+            height: 60px; background-color: black; color: white; display: flex;
+            align-items: center; padding: 0 20px;
         }
 
-        .nav-company img {
-            height: 40px;      /* 상단바에 맞는 로고 크기 */
-            width: auto;
-            display: block;
+        .nav-company {
+            color: white; font-size: 25px; font-family: 'Arial', cursive;
         }
-
+        
         .nav-menu {
-            margin-left: auto;
-            font-size: 18px;
+            font-size: 20px; margin-left: auto; font-family: 'Arial', cursive;
         }
 
         .nav-menu a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
+            color: white; text-decoration: none; margin: 0 10px;
         }
-
-        /* CONTENT */
-        .logo, .image {
-            text-align: center;
-            padding: 20px;
+        
+        .logo, .image, .ment {
+            text-align: center; padding: 20px;
         }
-
-        .logo img {
-            width: 300px;
-            max-width: 90%;
-            height: auto;
+        
+        .image img {
+            width: 100%; max-width: 1000px; height: auto;
         }
-
-        .image img { 
-            width: 100%;
-            max-width: 1000px;
-            height: auto;
-            border-radius: 5px;
-        }
-
-        /* FOOTER */
+        
         .footer {
-            border-top: 1px solid #ccc;
-            padding: 15px;
-            font-size: 0.9em;
-            text-align: center;
-            line-height: 1.5em;
+            height: 40px; border-top: 1px solid black; display: flex; justify-content: center; align-items: center;
         }
 
-        /* MOBILE */
+        /* 반응형 디자인 (모바일 대응) */
         @media screen and (max-width: 768px) {
             .nav {
                 flex-direction: column;
                 height: auto;
+                text-align: center;
                 padding: 10px 0;
             }
 
             .nav-menu {
-                margin: 10px 0 0;
                 font-size: 16px;
+                margin: 10px 0 0 0;
+            }
+
+            .image img {
+                width: 100%; height: auto;
+            }
+
+            .ment {
+                font-size: 1em;
+                padding: 10px;
             }
         }
     </style>
 </head>
 <body>
-
-    <!-- NAV -->
     <div class="nav">
         <div class="nav-company">
-            <a href="index.html">
-                <img src="CS LOGO.jpg" alt="CS Logo">
-            </a>
+            <b>(주)와이와이미디어테크(NEVION)</b>
         </div>
         <div class="nav-menu">
             <a href="https://nevion.com/about/" target="_blank">ABOUT</a> /
             <a href="https://nevion.com/products/" target="_blank">PRODUCT</a> /
-            <a href="https://map.naver.com" target="_blank">LOCATION</a>
+            <a href="https://map.naver.com/v5/search/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%94%94%EC%A7%80%ED%84%B8%EB%B9%8C%EB%9E%80%ED%8A%B82%EC%B0%A8/place/18433034?c=14126309.2824549,4506794.9658402,17,0,0,0,dh" target="_blank">LOCATION</a>
         </div>
     </div>
-
-    <!-- MAIN LOGO -->
+    
     <div class="logo">
-        <img src="CS LOGO.jpg" alt="CS Logo Large">
+        <img width="300" src="https://github.com/sunho7979/web/blob/master/logo.jpg?raw=true">
     </div>
-
-    <!-- IMAGE -->
+    
     <div class="image">
-        <img src="https://raw.githubusercontent.com/sunho7979/web/master/sky.jpg"
-             alt="Main Image">
+        <img src="https://github.com/sunho7979/web/blob/master/sky.jpg.jpg?raw=true">
     </div>
-
-    <!-- FOOTER -->
+    
+    <div class="ment">
+        <p>Whatever your IP media transport, processing, monitoring and management need, make sure you talk to the pioneers, the guides, the creators and the experts – from Nevion!</p>
+    </div>
+    
     <div class="footer">
-        <b>(주)와이와이미디어테크</b> (441-86-00812)<br>
-        서울시 구로구 디지털로30길 31, 코오롱디지털타워빌란트2차 1014호<br>
-        최선호 대표 | 010-3799-4334 |
-        <a href="mailto:sale@yymtech.com">sale@yymtech.com</a>
+        <p><b>(주)와이와이미디어테크</b> ( 441-86-00812 )</p>
+        <p>서울시 구로구 디지털로30길 31, 코오롱디지털타워빌란트2차 1014호 | </p>
+        <p> 최선호 대표 | 010-3799-4334 | <a href="mailto:sale@yymtech.com">sale@yymtech.com</a></p>
     </div>
-
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>(주)와이와이미디어테크(NEVION)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .nav {
+            height: 60px; background-color: black; color: white; display: flex;
+            align-items: center; padding: 0 20px;
+        }
+
+        .nav-company {
+            color: white; font-size: 25px; font-family: 'Arial', cursive;
+        }
+        
+        .nav-menu {
+            font-size: 20px; margin-left: auto; font-family: 'Arial', cursive;
+        }
+
+        .nav-menu a {
+            color: white; text-decoration: none; margin: 0 10px;
+        }
+        
+        .logo, .image, .ment {
+            text-align: center; padding: 20px;
+        }
+        
+        .image img {
+            width: 100%; max-width: 1000px; height: auto;
+        }
+        
+        .footer {
+            height: 40px; border-top: 1px solid black; display: flex; justify-content: center; align-items: center;
+        }
+
+        /* 반응형 디자인 (모바일 대응) */
+        @media screen and (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                height: auto;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .nav-menu {
+                font-size: 16px;
+                margin: 10px 0 0 0;
+            }
+
+            .image img {
+                width: 100%; height: auto;
+            }
+
+            .ment {
+                font-size: 1em;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-company">
+            <b>(주)와이와이미디어테크(NEVION)</b>
+        </div>
+        <div class="nav-menu">
+            <a href="https://nevion.com/about/" target="_blank">ABOUT</a> /
+            <a href="https://nevion.com/products/" target="_blank">PRODUCT</a> /
+            <a href="https://map.naver.com/v5/search/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%94%94%EC%A7%80%ED%84%B8%EB%B9%8C%EB%9E%80%ED%8A%B82%EC%B0%A8/place/18433034?c=14126309.2824549,4506794.9658402,17,0,0,0,dh" target="_blank">LOCATION</a>
+        </div>
+    </div>
+    
+    <div class="logo">
+        <img width="300" src="https://github.com/sunho7979/web/blob/master/logo.jpg?raw=true">
+    </div>
+    
+    <div class="image">
+        <img src="https://github.com/sunho7979/web/blob/master/sky.jpg.jpg?raw=true">
+    </div>
+    
+    <div class="ment">
+        <p>Whatever your IP media transport, processing, monitoring and management need, make sure you talk to the pioneers, the guides, the creators and the experts – from Nevion!</p>
+    </div>
+    
+    <div class="footer">
+        <p><b>(주)와이와이미디어테크</b> ( 441-86-00812 )</p>
+        <p>서울시 구로구 디지털로30길 31, 코오롱디지털타워빌란트2차 1014호 | </p>
+        <p> 최선호 대표 | 010-3799-4334 | <a href="mailto:sale@yymtech.com">sale@yymtech.com</a></p>
+    </div>
+</body>
+</html>
+
+
 
 
 
