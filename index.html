@@ -1,36 +1,161 @@
 <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>(주)와이와이미디어테크</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; }
+
+        /* =====================
+           NAV (PC 기본)
+        ===================== */
+        .nav {
+            height: 60px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .nav-company img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-menu {
+            margin-left: auto;
+            font-size: 18px;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* =====================
+           CONTENT (PC 기본)
+        ===================== */
+        .logo, .image {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 300px;
+            max-width: 90%;
+        }
+
+        .image img {
+            width: 100%;
+            max-width: 1000px;
+            border-radius: 5px;
+        }
+
+        /* =====================
+           FOOTER
+        ===================== */
+        .footer {
+            border-top: 1px solid #ccc;
+            padding: 15px;
+            font-size: 0.9em;
+            text-align: center;
+            line-height: 1.6em;
+        }
+
+        /* =====================
+           MOBILE (스마트폰)
+        ===================== */
+        @media screen and (max-width: 768px) {
+
+            /* 상단바 세로 정렬 */
+            .nav {
+                flex-direction: column;
+                height: auto;
+                padding: 12px 0;
+            }
+
+            .nav-company img {
+                height: 34px;
+                margin-bottom: 8px;
+            }
+
+            /* 메뉴를 버튼처럼 */
+            .nav-menu {
+                margin-left: 0;
+                font-size: 15px;
+            }
+
+            .nav-menu a {
+                margin: 0 6px;
+            }
+
+            /* 메인 로고 축소 */
+            .logo {
+                padding: 10px;
+            }
+
+            .logo img {
+                width: 220px;
+            }
+
+            /* 이미지 여백 축소 */
+            .image {
+                padding: 10px;
+            }
+
+            /* 푸터 글자 축소 */
+            .footer {
+                font-size: 0.8em;
+                padding: 12px;
+            }
+        }
+    </style>
 </head>
+
 <body>
+
+    <!-- NAV -->
     <div class="nav">
         <div class="nav-company">
-            <b>(주)와이와이미디어테크</b>
+            <a href="index.html">
+                <img src="CS LOGO.jpg" alt="CS Logo">
+            </a>
         </div>
         <div class="nav-menu">
-            <a href="https://nevion.com/about/" target="_blank">ABOUT</a> /
-            <a href="https://nevion.com/products/" target="_blank">PRODUCT</a> /
-            <a href="https://map.naver.com/v5/search/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%94%94%EC%A7%80%ED%84%B8%EB%B9%8C%EB%9E%80%ED%8A%B82%EC%B0%A8/place/18433034?c=14126309.2824549,4506794.9658402,17,0,0,0,dh" target="_blank">LOCATION</a>
+            <a href="https://nevion.com/about/" target="_blank">ABOUT</a> |
+            <a href="https://nevion.com/products/" target="_blank">PRODUCT</a> |
+            <a href="https://map.naver.com/v5/search/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%94%94%EC%A7%80%ED%84%B8%EB%B9%8C%EB%9E%80%ED%8A%B82%EC%B0%A8/place/18433034"
+               target="_blank">LOCATION</a>
         </div>
     </div>
-    
+
+    <!-- MAIN LOGO -->
     <div class="logo">
-        <img width="300" src="https://github.com/sunho7979/web/blob/master/logo.jpg?raw=true">
+        <img src="https://github.com/sunho7979/web/blob/master/logo.jpg?raw=true"
+             alt="Company Logo">
     </div>
-    
+
+    <!-- IMAGE -->
     <div class="image">
-        <img src="https://github.com/sunho7979/web/blob/master/sky.jpg.jpg?raw=true">
+        <img src="https://github.com/sunho7979/web/blob/master/sky.jpg?raw=true"
+             alt="Main Image">
     </div>
-    
-    <div class="ment">
-        <p>Whatever your IP media transport, processing, monitoring and management need, make sure you talk to the pioneers, the guides, the creators and the experts – from Nevion!</p>
-    </div>
-    
+
+    <!-- FOOTER -->
     <div class="footer">
-        <p><b>(주)와이와이미디어테크</b> ( 441-86-00812 )</p>
-        <p>서울시 구로구 디지털로30길 31, 코오롱디지털타워빌란트2차 1014호 | </p>
-        <p> 최선호 대표 | 010-3799-4334 | <a href="mailto:sale@yymtech.com">sale@yymtech.com</a></p>
+        <b>(주)와이와이미디어테크</b> (441-86-00812)<br>
+        서울시 구로구 디지털로30길 31, 코오롱디지털타워빌란트2차 1014호<br>
+        최선호 대표 | 010-3799-4334 |
+        <a href="mailto:sale@yymtech.com">sale@yymtech.com</a>
     </div>
+
 </body>
 </html>
+
 
 
 
